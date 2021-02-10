@@ -23,3 +23,26 @@ The required installations are:
 5. Create Posts that will be visible to everyone in my neighborhood.
 6. Change My neighborhood when I decide to move out.
 7. Only view details of a single neighborhood.
+
+## Dependencies
+
+asgiref==3.3.1
+beautifulsoup4==4.9.3
+confusable-homoglyphs==3.2.0
+dj-database-url==0.5.0
+Django==1.11
+django-bootstrap4==2.3.1
+django-registration==2.4.1
+django-rest-authtoken==2.1.3
+django-tinymce==3.2.0
+djangorestframework==3.11.1
+gunicorn==20.0.4
+importlib-metadata==2.1.1
+Pillow==8.1.0
+psycopg2==2.7.5
+python-decouple==3.4
+pytz==2020.5
+soupsieve==2.1
+sqlparse==0.4.1
+whitenoise==5.2.0
+zipp==3.4.0
