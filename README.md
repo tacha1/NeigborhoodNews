@@ -46,3 +46,10 @@ soupsieve==2.1
 sqlparse==0.4.1
 whitenoise==5.2.0
 zipp==3.4.0
+
+## Technologies Used
+
+* Django Python3.6 
+* Postgresql (database)
+* HTML, CSS and BootStrap
+* Heroku
