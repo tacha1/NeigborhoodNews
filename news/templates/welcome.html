@@ -1,0 +1,13 @@
+{%extends 'base.html'%}
+{% load static%}
+{% block content %}
+{{block.super}}
+
+<div class="container" style="margin-top: 10%">
+    {% for h in all_hoods %}
+      <a href="{% url 'hood' h.id%}"><h5> {{h.neighborhood_name}} </h5></a>
+    <hr>              
+    {% endfor %}     
+  
+</div>
+{% endblock %}

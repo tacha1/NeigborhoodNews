@@ -1,0 +1,17 @@
+{%extends 'base.html'%} 
+{% block content %}
+<div class="container">
+
+  <div class="row" style="margin-top:4%">
+  {% if businesses %}
+    {% for buzi in businesses %}
+      <div class="col-md-4">
+          <h3>{{buzi.business_name}}</h3>
+          <h3>{{buzi.location}}</h3>
+          <h3>{{buzi.email}}</h3>
+      </div>
+    {% endfor %}
+  {% endif %}
+  </div>
+</div>
+{% endblock %}

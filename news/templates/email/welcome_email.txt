@@ -1,0 +1,3 @@
+Hello {{name}}
+
+Welcome to neighborhood newsletter. You will find the most exciting news in the neighborhood.
